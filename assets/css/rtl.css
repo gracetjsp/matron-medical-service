@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+body.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: "Cairo", sans-serif !important;
+}
+.rtl .header-contact-info .item .item-inner .item-thumb {
+  margin-left: 15px !important;
+  margin-right: 0;
+}
+.rtl
+  .department-section.style-1
+  .section-content
+  .department-bottom
+  .tab-content
+  .post-content
+  ul
+  li::after {
+  position: absolute;
+  content: "";
+  right: -22px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #168282;
+  font-weight: 700;
+  font-family: IcoFont !important;
+}
+.rtl .contact-us .section-wrapper .contact-info ul li:before {
+  width: 4px;
+  height: 100%;
+  background-color: #168282;
+  top: 0;
+  right: -15px;
+  border-radius: 20px 0 0 20px;
+}
+body.rtl,
+.rtl button,
+.rtl input,
+.rtl select,
+.rtl optgroup,
+.rtl textarea {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.rtl h1,
+.rtl h2,
+.rtl h3,
+.rtl h4,
+.rtl h5,
+.rtl h6,
+.rtl h1 a,
+.rtl h2 a,
+.rtl h3 a,
+.rtl h4 a,
+.rtl h5 a,
+.rtl h6 a,
+.rtl a h1,
+.rtl a h2,
+.rtl a h3,
+.rtl a h4,
+.rtl a h5,
+.rtla h6 {
+  font-family: "Cairo", sans-serif !important;
+}
+.rtl
+  .counter-section.style-1
+  .section-wrapper
+  .counter-item
+  .counter-item-inner
+  .counter-thumb {
+  margin-left: 20px;
+}
+.rtl
+  .counter-section.style-1
+  .section-wrapper
+  .counter-item
+  .counter-item-inner
+  .counter-thumb {
+  margin-right: 20px;
+}
+
+/* .rtl .mobile-menu .mobile-menu-wrapper .open-menu {
+  left: 0 !important;
+  top: 6px;
+} */
+.rtl .mobile-menu .mobile-menu-wrapper .open-menu {
+  left: 0px !important;
+  top: 6px;
+  right: auto !important;
+}
+.rtl .hc-offcanvas-nav.nav-position-right .nav-container {
+left: 0 !important};
+.rtl .flag{
+  margin-left: 4px !important;
+  margin-right: 0px !important;
+}
+.rtl .lang-label {
+    font-size: 14px;
+    margin-right: 4px !important;
+}
+
+.rtl .swiper-button-next{
+transform: rotate(180deg) !important; }
+.rtl .swiper-button-prev{
+  transform: rotate(180deg) !important; 
+}
+.rtl  .card-title{
+min-height: 55px;
+margin-bottom: 0 !important;
+}
