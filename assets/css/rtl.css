@@ -84,18 +84,18 @@ body.rtl,
   top: 6px;
 } */
 .rtl .mobile-menu .mobile-menu-wrapper .open-menu {
-  left: 0px !important;
+  left: 3px !important;
   top: 6px;
   right: auto !important;
 }
 .rtl .hc-offcanvas-nav.nav-position-right .nav-container {
 left: 0 !important};
 .rtl .flag{
-  margin-left: 4px !important;
+  margin-left: 3px !important;
   margin-right: 0px !important;
 }
 .rtl .lang-label {
-    font-size: 14px;
+    font-size: 13px;
     margin-right: 4px !important;
 }
 
@@ -107,4 +107,10 @@ transform: rotate(180deg) !important; }
 .rtl  .card-title{
 min-height: 55px;
 margin-bottom: 0 !important;
+}
+.rtl .ar-number a {
+  direction: ltr !important;
+  unicode-bidi: embed;
+  text-align: left;
+  display: inline-block; /* Ensures text-align works */
 }

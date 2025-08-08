@@ -8600,9 +8600,9 @@ select {
   content: "Arabic";
 } */
 .flag {
-    width: 20px;
+    width: 18px;
     height: auto;
-    margin-right: 4px;
+    margin-right: 3px;
     vertical-align: middle;
 }
 
@@ -8631,7 +8631,7 @@ select {
 
 /* Optional spacing for mobile */
 .language-switcher-mobile li {
-    margin-right: 8px;
+    margin-right: 5px;
 }
 .language-switcher-mobile {
     list-style: none;
@@ -8703,3 +8703,28 @@ select {
 .card-text{
   min-height: 100px;
 }
+.whatsapp-float {
+    position: fixed;
+    /* width: 40px;
+    height: 40px; */
+    bottom: 20px; /* Distance from bottom */
+    left: 20px;  /* Distance from right */
+    /* background-color: #25D366; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.3); */
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* .whatsapp-float:hover {
+   box-shadow: 0px 5px 5px rgba(30, 244, 37, 0.5);
+    
+} */
